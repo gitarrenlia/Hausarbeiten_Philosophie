@@ -19,3 +19,5 @@ Meine Hausarbeiten für die RWTH Aachen
 	"Drum transcription via joint beat and drum modeling using convolutional recurrent neural networks"
 	written by Richard Vogl, Matthias Dorfer, Gerhard Widmer and Peter Knees
 		
+	2. Byzantine Fault Tolerance
+	An explanation about the BFT problem of Blockchains.
