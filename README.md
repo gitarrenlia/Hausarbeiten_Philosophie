@@ -4,7 +4,7 @@ Meine Hausarbeiten für die RWTH Aachen
 
    Nebenfach Philosophie:
 	1. Flugsimulation - Zwischen Fiktion und Realismus
-		In dieser Hausarbeit geht es um die Frage, wie nah eine Simulation an der Realitat sein muss,
+		In dieser Hausarbeit geht es um die Frage, wie nah eine Simulation an der Realität sein muss,
 		um einem Piloten eine gute Ausbildung zu bieten und wie realitätsnah sie heute schon ist.
 		Dabei wird besonders auf den philosophischen Unterschied zwischen Realität (anhand von Platons Höhlengleichnis)
 		und Fiktion (anhand von Hans Vaihingers Philosophie des Als Ob) eingegangen.
