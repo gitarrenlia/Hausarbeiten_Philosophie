@@ -1,0 +1,159 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, left=3.5cm, right=3.5cm, top=3.5cm, bottom=3.5cm, textwidth=12cm]{geometry}
+\usepackage{setspace}
+\setstretch{1,33}%20/12
+\usepackage[german]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\begin{document}
+
+%
+% ---- Titelseite ----
+%
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.5\textwidth]{logo.png}\par\vspace{1cm}
+	{\scshape\LARGE Philosophisches Institut \par}
+	\vspace{1cm}
+	{\scshape\Large Vorlesung Philosophie\newline(Modell und Simulationstheorie)\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Flugsimulation zwischen Fiktion und Realismus\par}
+	\vspace{2cm}
+	{\Large\itshape Lia Schulze Dephoff\par}
+	{\itshape Studiengang Informatik Master\par}
+	{\itshape Matr.Nr. 375625\par}
+	\vfill
+	Dozentin:\par
+	Dr.phil. \textsc{Gramelsberger}
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+%
+% ---- Inhaltsverzeichnis ----
+%
+\newpage
+\tableofcontents 
+\newpage
+%
+% ---- Einleitung ----
+%
+\section{Einleitung}
+Nur ein Jahr nach der Entwicklung des motorisierten Flugzeugs entstand der erste Flugsimulator. Den Menschen muss also wohl sehr früh bewusst gewesen sein, dass das Fliegen nicht ohne Training möglich ist. Besonders im militärischen Bereich gab es anfangs viele Unfälle im Flugtraining und einige Verluste in beiden Weltkriegen. Nach den Kriegen wurden Simulatoren schrittweise weiter entwickelt. Die Entwicklung teilte sich in verschiedenen Bereiche wie Sichtsystem, Bewegungssystem oder Audiosystem auf. Dabei wurde besonders wert darauf gelegt, dass das Gefühl des Fliegens in einem Simulator immer näher an das reale Fliegen in einem Luftfahrzeug heran kommt.\newline
+Im Folgenden wird es nun um die Frage gehen, wie nah eine Simulation an der Realität sein muss, um einem Piloten eine gute Ausbildung zu bieten und wie realitätsnah sie heute schon ist. Dabei wird besonders auf den Unterschied zwischen Realität und Fiktion eingegangen.\newline
+Dazu erläutere ich zunächst die Wichtigkeit von praxisnahem Training und wieso dieses eher in einem Simulator als in einem realen Luftfahrzeug ausgeführt werden sollte.\newline
+Anschließend werden die Begriffe Fiktion und Realismus sowie ihre Verbindung zur Flugsimulation erläutert. Dabei wird der Fiktionsbegriff von Hans Vaihinger in seiner \glqq Philosophie des Als Ob\grqq{} betrachtet und der Realismusbegriff anhand des Höhlengleichnisses von Platon erläutert.\newline
+Nachdem diese Begriffe deutlich gemacht wurden, folgt dann eine ausführliche Erklärung wie nah ein Simulationssystem der Realität kommen kann und sollte bezogen auf die verschiedenen menschlichen Sinne. Zum Schluss wird noch die Rolle des individuellen Menschen mit seinen Fähigkeiten und seiner Wahrnehmung für das System beleuchtet.\newline
+
+%
+% ---- Hauptteil ----
+%
+\section{Notwendigkeit eines Simulators}
+Die Flugsimulation ist im heutigen Zeitalter ein notwendiger Bestandteil im Ausbildungstraining eines Piloten. Ein sofortiger Flug im realen Modell ist selbst nach ausführlichem theoretischen Studium undenkbar schon im Bezug auf die Sicherheit von Pilot, Luftfahrzeug und Umgebung.\newline
+Ein ungeübter Pilot ist eine Gefahr für sich selbst und seine Umwelt. So kann durch einen Absturz sowohl der Pilot selbst verletzt oder getötet werden, als auch das Luftfahrzeug oder die Umgebung in der dieses herunter kommt beschädigt werden. Die Umgebung kann hierbei aus natürlichen Objekten wie etwa Bäumen bestehen oder aus Gebäuden oder sogar Lebewesen, die sich dort befinden.\newline
+Häufiges Training im realen Luftfahrzeug führt des Weiteren zu einer höheren Belastung der Umwelt durch den Verbrauch und die Abgase des Kerosins. Es fallen außerdem hohe Kosten an, nicht nur für das Kerosin sondern auch für den Verschleiß des Luftfahrzeugs und seiner Instrumente.\newline
+Trotzdem ist die praktische Erfahrung von besonders hoher Bedeutung wie auch schon Einstein sagte: \glqq Durch bloßes logisches Denken vermögen wir keinerlei Wissen über die Erfahrungswelt zu erlangen; alles Wissen über die Wirklichkeit geht von der Erfahrung aus und mündet in ihr.\grqq{} (Einstein, 1905)\newline
+So kann die Theorie alleine einem Flugschüler nicht alle Seiten des Fliegens aufzeigen.
+Sieht ein Schüler das Cockpit in seiner realen Umgebung, hat dies eine ganz andere Wirkung als eine grafische zweidimensionale Darstellung oder textuelle Beschreibung dessen. Auch die manuelle Betätigung von Bedienelementen oder beispielsweise dem Gashebel ist nur am Objekt selbst realistisch zu erklären. Ein Schüler kann zwar in der Theorie lernen wie hoch die mechanischen Kräfte solcher Elemente sind, aber die tatsächliche Auswirkung auf den eigenen Körper mit individuellen Kraftressourcen ist nur schwer vorstellbar und kann durch direktes Training am Cockpit realistischer erlernt werden.\newline
+Um dem Flugschüler nun ein möglichst realitätsnahes Flugtraining zu bieten, werden Simulatoren entwickelt. Diese bieten sowohl die Sicherheit bei einem Absturz nichts und niemanden zu verletzen, als auch die Möglichkeit ohne Verschleiß und Verbrauch von Kerosin zu arbeiten. Ein weiterer Vorteil der Simulation ist die Unabhängigkeit von Tageszeit und Wetterbedingung, da jedes gewünschte Wetterverhältnis sowie jede Tages- und Nachtzeit mit entsprechenden Helligkeiten, Regen, Nebel, Gewitter, Sturm und ähnliches simulierbar ist. Auch der Ort an dem geflogen werden soll kann einfach und schnell eingestellt werden egal an welchem Ort man sich in der Realität befindet.\newline
+Schlussendlich ist ein besonderer Vorteil der Simulation, dass die Situationen im Trainingsflug besonders gut dokumentierbar sind, sodass sowohl die Möglichkeit besteht sich Situationen erneut anzuschauen und Fehler zu analysieren um aus diesen zu lernen, wie auch solche Situationen detailgetreu nachzustellen und erneut zu trainieren.
+%
+% ---- Fiktion und Realismus ----
+%
+\section{Fiktion und Realismus Begriffe}
+Um zu verstehen ob Flugsimulation mehr Realismus oder doch eine Fiktion ist, müssen zunächst diese beiden Begriffe erläutert werden. Dies wird im Folgenden mit einigen Beispielen verdeutlicht.
+\subsection{Fiktion}
+Der Begriff Fiktion kommt aus dem Lateinischen \glqq fictio\grqq{} und bedeutet wörtlich Erdichtung, Gestaltung, aber kann im Bezug auf Tiere auch zähmen bedeuten (vgl. Pons, fictio).\newline
+Wenn man sich ein Modell der Aerodynamik anschaut und dieses exakt für die Simulation nutzen möchte, wird man aktuell scheitern. Ein Simulator muss in Echtzeit reagieren, um dem Nutzer zu vermitteln, dass es sich tatsächlich wie in der Realität verhält. Diese Berechnungen sind allerdings so komplex, dass die Berechnung auf aktuellen Computern in Simulatoren so lange dauert, dass das Ergebnis erst fertig errechnet wurde, wenn die Situation schon vorbei ist. Daher möchte man das Modell vereinfachen oder anders gesagt \glqq zähmen\grqq{}, um den Echtzeitanforderungen gerecht zu werden. Man erstellt also eine Fiktion des realen Modells zur Annäherung an das tatsächliche Ergebnis. Dieses ist bewusst nicht korrekt, aber zielführend, da dem Nutzer die geringen Ergebnisunterschiede nicht bewusst werden, weil es sich nur um kleine Werteänderungen handelt, die mit den bloßen Sinnen nicht zu erfassen sind.\newline
+Dies passt auch zu der Fiktionsdefinition von Hans Vaihinger. Dieser beschreibt, dass der Unterschied der Fiktion im Gegensatz zu einer Hypothese der sei, dass man bei einer Fiktion genau wisse, dass diese falsch sei, jedoch als Hilfsmittel zielführend sei. So nennt er beispielsweise das Atommodell. Dieses wird stark vereinfacht dargestellt als Kugel mit Schalen. Zwar ist diese Darstellung eine Fiktion, da es nicht die Realität widerspiegelt, trotzdem ist es zielführend, da mit diesem Modell viele weitere Phänomene in der Physik oder Chemie beschrieben werden können und die Forschung mit diesem Modell weiter arbeiten kann.\newline
+So wurden schließlich auch im Mittelalter viele Phänomene auf eine sehr vereinfachte Weise dargestellt und beschrieben, weil es man es schlicht nicht besser wusste. Man kann sagen, dass die Entwicklung des Weltbildes von Aristoteles bis zum heutigen heliozentrischen Weltbild eine lange Entwicklung durchgemacht hat. Die ersten Weltbilder waren nach heutigen Erkenntnissen schier falsch, jedoch war das damals nicht bekannt und ist daher eher als falsch bewiesene Hypothese zu sehen. Eine Fiktion wäre es, heute das Weltbild mit Kreisbahnen statt Ellipsen zu beschreiben, um so Berechnungen zu vereinfachen.\newline
+In der Avionik werden so zum Beispiel Kugelkoordinaten berechnet in der Annahme, dass die Erde eine perfekte Kugel ist. Jedoch ist die Erde auf Grund ihrer abgeflachten Pole eher ein Ellipsoid.
+
+\subsection{Realismus}
+Realismus lässt sich zurückführen auf den Begriff der Realität oder aus dem lateinischen \glqq realis\grqq{}, die Wirklichkeit.
+Der Begriff der Realität wird in der Philosophie auf viele Arten und Weisen beschrieben. So erklärt zum Beispiel Platon in seinem Höhlengleichnis wie Menschen in einer Höhle nur auf eine Wand blicken können auf der Schatten von anderen Menschen zu sehen sind. Die Gespräche der Menschen hallen von den Wänden zurück. Diese Schattenmenschen werden dann auf Grund des beschränkten Blickwinkels für die Realität gehalten. Es scheint außerdem so als würden die Schatten selbst reden. Aus einem anderen Blickwinkel könnte man allerdings erkennen, dass die Realität anders aussieht. So kann man also nie wissen aus welchem Blickwinkel man die Dinge betrachten muss, um die tatsächliche Realität darin zu erkennen.\newline
+Das Subjekt und seine individuelle Wahrnehmung spielen hier also eine wichtige Rolle. Dies wird auch deutlich in Nietzsches Worten: \glqq Der Mensch entdeckt zuletzt nicht die Welt, sondern seine Tastorgane und Fühlhörner und deren Gesetze – aber ist deren Existenz nicht schon ein genügender Beweis für die Realität?\grqq (Nietzsche, Aus dem Nachlass; Nachlass, KSA 9: 10[D83]) Die Wahrnehmung geschieht also durch unsere Sinne und mit diesen Erkennen wir unsere Realität.\newline
+Betrachtet man also den Realismus eines Simulators geht es dabei um die Wahrnehmung. Ein möglichst realistischer Flugsimulator ist einer, der sich anfühlt wie das echte Luftfahrzeug bezogen auf alle menschlichen Sinne.
+%
+% ---- Immersionskonzepte ----
+%
+\section{Immersionskonzepte}
+Immersion vom lateinischen \glqq immersio\grqq{} bedeutet so viel wie Eintauchen und wird besonders im Bereich der Virtuellen Realität benutzt, um zu beschreiben wie ein Benutzer in einer virtuellen Umgebung so weit eintaucht, dass er diese für die Realität hält. Dieses Konzept ist auch für die Flugsimulation gewünscht um dem Nutzer den Eindruck zu vermitteln tatsächlich in einem realen Luftfahrzeug zu sitzen. Um eine möglichst optimale Immersion zu erreichen muss die Umgebung möglichst real erscheinen. Wie im vorigen Kapitel erwähnt spielt dies also auf die Wahrnehmung durch die verschiedenen Sinne an. Dieses Kapitel beschäftigt sich daher mit dem Erreichen so einer Immersion durch verschiedene sinnliche Reize. Es wird außerdem darauf eingegangen wie nah die Flugsimulation in der heutigen Zeit an die Realität herankommt und wo man auf Fiktionen zurückgreifen muss.
+
+\subsection{Taktile Reize}\label{taktil}
+Taktile Reize betreffen den Tastsinn. Elemente im Simulator sollten sich möglichst real anfühlen beim Berühren und Bedienen. Dazu gehören zum Beispiel auch die Sitze, die einen möglichst ähnlichen Sitzkomfort bieten sollten wie im Luftfahrzeug. Dazu werden häufig originale Teile des Luftfahrzeugs auch im Simulator eingesetzt, wodurch sich eine vollständig real anfühlende Umgebung bezüglich der taktilen Reize schaffen lässt. Die taktilen Reize sind somit absolut realistisch darstellbar ohne auf irgendeiner Ebene auf eine Fiktion zurückgreifen zu müssen.
+
+\subsection{Kinästhetische Reize}
+Die Kinästhetik ist die Empfindung von Bewegung. Während eines Fluges spürt man die Bewegungen des Flugzeuges auf unterschiedliche Weise. Zum einen gibt es die rotatorischen und translatorischen Bewegungen. Diese sind verantwortlich für die Kippbewegung sowie die Verschiebung des Gesamtsystems in eine beliebige Richtung. Dies kann durch unterschiedliche Bewegungssyteme simuliert werden. Ein Beispiel dafür ist eine Plattform mit sechs längenveränderlichen Beinen. Durch diese können alle sechs Freiheitsgrade der Bewegung erreicht werden.\newline
+Des Weiteren ist auch die Beschleunigung eine spürbare Bewegung. Diese kann kurzfristig oder langfristig sein und wirkt entsprechend mit unterschiedlichen Kräften. Bei besonders starker Beschleunigung wie sie beispielsweise in einem Jet zustande kommt, wirken höhere G-Kräfte, welche dazu führen, dass der Pilot in seinen Sitz hinein gedrückt wird. Dies lässt sich simulieren durch einen Anzug oder ein in den Sitz integriertes System, welches Luftkissen aufbläst und auf diese Weise Druck auf dem Körper ausübt.\newline
+Auch Vibrationen sind eine Art von Bewegung und können durch Audiokomponenten wie Subwoofer durch hohe Schwingungen erzeugt werden.\newline
+Bewegungen können in der Simulation nicht vollständig realistisch dargestellt werden, da es in der Simulation eben darum geht, dass sich das Fahrzeug nicht bewegt, sondern an Ort und Stelle verwendet werden kann. Trotzdem ist dieser Faktor sehr entscheidend um dem Piloten das Gefühl zu geben tatsächlich zu fliegen. Daher sind heutige Bewegungssysteme so weit entwickelt, dass man spätestens in der Kombination mit dem Sichtsystem das Gefühl bekommt, sich tatsächlich wie im Original zu bewegen. Bewegungssysteme sind also nicht die Realität, aber sie simulieren diese so gut, dass sie dem Piloten wie die Realität erscheinen. Wenn sich die Realität also auf die Wahrnehmung bezieht und die Wahrnehmung sich im Simulator nicht von dem Flug im Flugzeug unterscheidet, ist dieses doch wieder die Realität. Jedoch sind einige Bewegungen wie zum Beispiel der Flug über Kopf nicht exakt realistisch darstellbar und auch in anderen Bewegungen kann ein Unterschied spürbar werden. Somit ist das Bewegungssystem insgesamt eine sehr realitätsnahe Fiktion.
+
+
+\subsection{Auditive Reize}
+Bei den Auditiven Reizen unterscheidet man zwischen Audio und Sound. Sound sind die Geräusche, die vom Fluggerät und seiner Umwelt erzeugt werden. Dies sind Geräusche von außen wie Wind oder Regen, aber auch Triebwerksgeräusche. Audio bezieht sich auf Töne, die von Instrumenten im Cockpit erzeugt werden zum Beispiel als Warntöne. Aber auch die Kommunikation mit dem Co-Piloten oder einer Bodenstation ist Teil des Audios. Viele dieser Geräusche werden als Töne über Lautsprecher abgespielt die im Originalumfeld aufgenommen wurden. Andere Soundeffekte werden am Computer erstellt.\newline
+Dabei ist es besonders relevant wo diese Lautsprecher angebracht sind und dass die Geräusche die korrekte Lautstärke erreichen. \newline
+Geräusche spielen eine besonders wichtige Rolle bei der Erkennung von Fehlfunktionen im Flugzeug. Oft kann man durch geänderte Motorgeräusche schon Fehlfunktionen erkennen bevor diese auf den Instrumenten angezeigt werden. Dazu müssen diese Geräusche natürlich der Realität so nahe kommen, dass der Pilot diese eindeutig zuordnen kann. Ebenso bei der Simulation von Warntönen ist es wichtig, dass der Pilot schnellst möglich erkennt um welchen Warnton es sich dabei handelt.\newline
+Allerdings ist das Hörvermögen eines Menschen beschränkt auf Frequenzen zwischen 20Hz und 20kHz. Hörverlust ist außerdem besonders bei älteren Menschen sehr gewöhnlich. Daher ist das Simulieren von Geräuschen außerhalb dieser Frequenz absolut unwichtig. Dadurc,h dass solche Frequenzen nicht simuliert werden, entsteht erneut eine Abstraktion und somit eine Fiktion der Geräusche. Doch auch hier ist dieser Unterschied nicht erkennbar und somit erscheint es dem Menschen als Realität.
+(vgl. Alfred T. Lee, Flight Simulation, 2005)\newline
+
+\subsection{Visuelle Reize}
+Das Visuelle teilt sich in zwei unterschiedliche Bereiche. Zum einen die Gestaltung des Flugzeuginnenraums. Dieses kann, wie schon in \ref{taktil} erwähnt, leicht nachgestellt werden indem ein original Cockpit verwendet wird.\newline
+Zum anderen geht es aber besonders um das Sichtsystem. Also die Darstellung der Umwelt über die geflogen wird. Diese wurde zu Beginn der Entwicklung von Simulatoren noch mittels einer modellierten Landschaft und einer Kamera, welche darüber hinweg flog, simuliert. Es wurde versucht diese Landschaft möglichst realistisch zu gestalten, konnte jedoch leicht von der Realität unterschieden werden. Allerdings war hier ein besonderes Hindernis, dass die Größe dieser Landschaft beschränkt war und sehr viel Platz in Anspruch nahm.\newline Ende der 70er Jahre begann dann die Entwicklung von CGI Grafiken.(vgl. Ray L. Page, Brief History of Flight Simulation)\newline
+Diese machten eine starke Entwicklung durch über die vergangenen Jahre und entwickeln sich noch immer stark weiter. Die Größe der Datenbasis ist weniger beschränkt und bietet die Möglichkeit Geländedaten über die ganze Welt zu simulieren. Allerdings ist auch heute noch leicht zu erkennen, dass das visualisierte Gelände nicht der Realität entspricht. Beschränkt werden diese Darstellungen durch die Leistungen von Projektoren, aber auch die Schnelligkeit und Leistung der Computer, die die Grafiken berechnen. Besonders die Schnelligkeit ist ein wichtiger Aspekt in der Simulation. Reagiert das Luftfahrzeug nicht sofort während der Bedienung wie es dies in der Realität tun würde, kann das Erlernen der Steuerung nicht mehr direkt auf das reale Flugzeug übertragen werden. Ein Unterschied dieser Größe hätte zur Folge, dass beim realen Flug ein starkes Umdenken stattfinden müsste. Dieses könnte so umständlich sein, dass das Erlernen der Flugfähigkeiten schlussendlich länger dauert als bei einem Erlernen ohne vorherige Simulator Erfahrung.\newline
+Die Grafik ist also eingeschränkt von der Anforderung der Echtzeitsimulation. Daher wird das Sichtsystem auf eine Fiktion beschränkt, die schnell genug berechnet werden kann und dabei noch möglichst realistisch erscheint. Hier wird also die Fiktion verwendet, um überhaupt ein Sichtsystem bieten zu können in dem Wissen, dass dieses nur eine Abstraktion der Realität ist.
+
+\section{Der individuelle Mensch an sich}
+Jeder Mensch hat seine eigene individuelle Wahrnehmung und so kann ein Simulationssystem auf jeden Menschen individuell anders wirken. Im folgenden Kapitel werden verschiedene Faktoren berücksichtigt, die vom Menschen an sich abhängen.
+
+\subsection{Simulatorkrankheit}
+Ein Aspekt ist die sogenannte Simulationskrankheit, welche sich ähnlich zu einer Reisekrankheit besonders durch die Symptome Schwindel und Übelkeit auszeichnet. Bis heute gibt es keine breit akzeptierte Theorie für das Auftreten dieser Krankheit. Jedoch ist bekannt, dass einige Faktoren sehr wahrscheinlich mehr Auswirkung darauf haben als andere. So kann sich eine bewegte Szenerie auf den Beobachter so auswirken, dass dieser glaubt sich selbst zu bewegen. Andere Sinne des Körpers spüren dabei allerdings keine Bewegung, wodurch es zu einer Diskrepanz zwischen den Sinne kommt. Man könnte daher denken, dass die Krankheit auf Grund von fehlenden Bewegungssystemen hervorgerufen wird. Jedoch wurde auch bei Simulatoren mit realistischem Bewegungssystem dieser Effekt festgestellt. Die Möglichkeit, dass die Bewegungssysteme noch nicht optimal sind und Verbesserungen daran das Problem lösen könnten sind aber nicht auszuschließen. Jedoch ist zu bedenken, dass nicht jeder Mensch unter denselben Bedingungen unter Simulatorkrankheit leidet. So gibt es Menschen, die diesen Effekt in den verschiedensten Szenarien nicht spüren, während andere Menschen sehr leicht zu diesem Effekt tendieren. (vgl. Alfred T. Lee, Flight Simulation, 2005)
+
+\subsection{Übertragungsfähigkeit}
+In einem optimalen Simulator bemerkt der Flugschüler keinen Unterschied zum realen Luftfahrzeug. Wenn es dann zum tatsächlichen Fliegen kommt, müsste er im idealen Fall keine Fähigkeiten dazulernen oder umlernen. Da jedoch kein optimaler Simulator existiert, gibt es immer einen gewissen Grad an Fähigkeiten, die im realen Flugzeug gelernt werden müssen. Jeder Mensch hat eine individuelle Anpassungsfähigkeit, also gibt es Menschen, denen das Umlernen sehr leicht fällt, während andere dafür deutlich mehr Zeit brauchen. Wie effektiv ein Simulatortraining für den Schüler ist, hängt also nicht nur vom Simulator sondern auch vom Menschen ab. Die Transfer Effectiveness Ratio (TER) ist die Formel zum Berechnen von der Simulatoreffektivität (Roscoe,1980). Sie berechnet die Differenz von Trainingszeit im Flugzeug und im Simulator und teilt diese durch die gesamte Trainingszeit. Falls dieser Koeffizient negativ wird spricht dies dafür, dass die Umlernphase so schwierig ist, dass viel länger im realen Flugzeug trainiert werden muss als im Simulator. Wie lange diese Zeiten dann in der Realität sind hängt aber immer von der Lernfähigkeit der individuellen Schüler ab.
+
+\subsection{Motivation}
+Sitzt ein Schüler in einem Simulator ist ihm dies bewusst, auch wenn das Umfeld sich exakt wie die Realität anfühlt. So weiß der Schüler, dass ihm absolut nichts passieren kann, selbst wenn es zu einem Absturz kommt. Es ist also unmöglich zu simulieren, wie sich das Bewusstsein der Gefahr in einem realen Flugzeug auf den Schüler auswirkt. Jeder Mensch hat unterschiedliche Ängste. So ist nicht vorauszusehen oder zu trainieren wie ein Schüler in der realen Situation fühlt. Die Gefühlslage ist also in keiner Art und Weise darstellbar. Nicht einmal mit Hilfe einer Fiktion kann diese Situation dargestellt werden. Fällt also im Simulator ein Getriebe aus wird der Schüler wissen, dass ihm nichts passieren kann und besonnen handeln können während er in der realen Situation möglicherweise in Panik geraten kann und nicht mehr in der Lage ist die bestmögliche Lösung für die Situation zu finden.\newline
+Daher ist die Vorstellungskraft eines Schülers von besonderer Bedeutung. Je mehr sich ein Schüler in die Situation hineinversetzen kann, desto eher wirkt es für ihn wie die Realität. Schafft es ein Schüler die Fiktion des Simulators als seine eigene Realität zu sehen, so ist das Training für diesen Schüler deutlich realistischer als für jemanden der sich dieser Realität vollständig entziehen kann.
+
+%
+% ---- Schlusswort ----
+%
+\section{Fazit}
+Die Flugsimulation versucht also die Realität darzustellen. Da die Realität aber nicht exakt darstellbar ist, nutzt sie die Möglichkeiten der Fiktion um dem Nutzer vorzuspielen, dass es sich um die Realität handelt. Dabei werden besonders die Aspekte vernachlässigt, die für den Menschen nicht mit seinen Sinnen wahrnehmbar sind. Die menschlichen Sinne sind in verschiedener Weise eingeschränkt, sodass der Mensch zum Beispiel nicht jedes Geräusch hören und nicht alles um sich herum sehen kann. Dinge darzustellen, die für den Menschen nicht spürbar sind würde daher einen viel zu hohen Aufwand erfordern, der gar nicht notwendig ist. Eine Fiktion des Realen reicht hierbei also aus, um dem Menschen vorzuspielen es sei die Realität. Schließlich ist die Realität nach Nietzsche doch nur eine Abbildung des Realen, geschaffen durch unsere Sinne. \newline
+In dieser Arbeit wurde jedoch gezeigt, dass auch manche Teile der Simulation nicht realitätsnah simuliert werden können, da diese eingeschränkt sind von der aktuellen Technik und Forschung. Auf dieser Ebene wurde zum Beispiel die visuelle Komponente beschrieben. Hier ist deutlich erkennbar, dass diese nur eine Fiktion ist und das menschliche Auge deutlich den Unterschied zur Realität erkennen kann. Die Fiktion ist hier also ein Mittel, um die Realität überhaupt simulieren zu können. Sie unterscheidet sich zwar deutlich von dieser, aber sie dient ihrem Zweck. Der Mensch erkennt seine Umwelt und weiß genau wo er sich befindet. Dies ist ausreichend, um zu lernen sich zu orientieren.\newline
+Jedoch wurde im letzten Kapitel auch deutlich, dass der Grad der Fiktion nicht nur von Software und Hardware abhängt, sondern auch vom Menschen selbst und seinen individuellen Wahrnehmungen.\newline
+Es ist essentiell wie weit sich ein Mensch in die Situation hineinversetzen kann, aber auch wie schnell er in der Lage ist die erlernten Fähigkeiten in die Realität umzusetzen. So sind also nicht nur die menschlichen Sinne und ihre allgemeine Funktion von Bedeutung, sondern auch die individuelle Wahrnehmung und die Fähigkeiten des Individuums.\newline
+Ein Flugsimulator ist also eine fiktive Darstellung der Realität, begrenzt durch den aktuellen Fortschritt der Technologien und die menschlichen Wahrnehmungsfähigkeit.
+
+\newpage
+%
+% ---- Literatur ----
+%
+\begin{thebibliography}{5}
+%
+
+\bibitem {Einstein}
+Einstein, Albert (2005) {\sl Mein Weltbild}. Berlin: Ullstein
+
+\bibitem{Roscoe}
+Roscoe, S.N. (1980). {\sl Aviation Psychology}. Ames, IA: Iowa State University Press
+
+\bibitem{Lee}
+Lee, A.T. (2005) {Flight Simulation Virtual Environments in Aviation}. Hampshire: Ashgate
+
+\bibitem{Vaihinger}
+Vaihinger, Hans (1922) {\sl DIE PHILOSOPHIE DES ALS OB. System der theoretischen, prakischen und religiösen Fiktionen der Menschheit  auf Grund eines idealistischen Positivismus. Mit einem Anhang über Kant und Nietzsche.} Leipzig: Verlag von Felix Meiner
+
+\bibitem{Nietzsche}
+Nietzsche, Friedrich (1988) {\sl Nachgelassene Fragmente 1880-1882} Berlin: Deutscher Taschenbuch Verlag
+
+\bibitem{Page}
+Page, Ray L. (2000) {\sl Brief History of Flight Simulation} SimTecT Proceedings
+
+\end{thebibliography}
+
+\end{document}
